@@ -1,1 +1,1 @@
-# express-starter
+# A Starter Template for an Express-Server
