@@ -3,8 +3,7 @@ const PORT = process.env.PORT || 3000;
 
 const app = express();
 
-app.listen("/api", (req, res) => {
-  res.send("Hello API");
-});
+// Routes
+app.use("/api", require("./routes/api"));
 
 app.listen(PORT, () => console.info(`Server started on Port ${PORT}`));
